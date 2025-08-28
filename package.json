@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-deploy",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "cd backend && npm install --production",
+    "start": "node backend/dist/server.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
